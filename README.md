@@ -33,7 +33,7 @@ Welcome to my personal portfolio website! This site showcases my **skills, proje
    ```
 
 ## 🌍 Live Demo
-🔗 https://your-portfolio-link.com](https://aymanalsisi.github.io/portfolio/
+🔗 https://aymanalsisi.github.io/portfolio/
 
 ## 📬 Contact Me
 📧 Email: aimandabora167@gmail.com  
