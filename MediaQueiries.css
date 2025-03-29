@@ -1,0 +1,18 @@
+@media (max-width: 700px) {
+    .navbar-sm {
+        display: flex;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .portfolio {
+        flex-direction: column;
+    }
+
+    .portfolio img {
+        width: 200px;
+        height: 200px;
+    }
+}

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style.css">
+    <link rel="stylesheet" href="./MediaQueiries.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="navbar-sm">
+        <div class="top">
+            <span class="brand">AYMAN BABEKIR</span>
+            <button class="nav-btn" onclick="toggleMenu()">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </button>
+        </div>
+        <div class="nav-body-sm">
+            <a href="#about" onclick="toggleMenu()" class="nav-link">About Me</a>
+            <a href="#projects" onclick="toggleMenu()" class="nav-link">Projects</a>
+            <a href="#resume" onclick="toggleMenu()" class="nav-link">Resume</a>
+            <a href="#contact" onclick="toggleMenu()" class="nav-link">Contact</a>
+        </div>
+    </div>
+    <div class="navbar">
+        <span class="brand">AYMAN BABEKIR</span>
+        <div class="nav-body">
+            <a href="#about" class="nav-link">About Me</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#resume" class="nav-link">Resume</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+    </div>
+    <div class="portfolio">
+        <img src="./assets/images/me.png" alt="">
+        <div class="article">
+            <p class="headline">
+                Hi, I'm <span class="full-name">Ayman Abdelaziz Elias Babekir</span> – an aspiring <span
+                    class="major">Electrical & Electronics Engineer</span> passionate about all fields of Electrical
+                Engineering!
+            </p>
+            <p class="short-bio">
+                I explore various aspects of Electrical Engineering, from embedded systems and automation to power
+                electronics and communications. In addition, I develop web and mobile applications, combining software
+                and hardware expertise. Check out my projects to see my work!
+            </p>
+            <p class="cta">
+                Explore my portfolio, view my projects, or download my resume below!
+            </p>
+            <div class="buttons">
+                <a href="#projects">View Projects</a>
+                <a href="./assets/resume.pdf" download class="cv">Downdload Resume</a>
+            </div>
+        </div>
+    </div>
+    <div class="about" id="about">
+        <h3>📌 About Me</h3>
+        <p class="headline">
+            I am an aspiring Electrical and Electronics Engineer with a deep passion for all fields of Electrical
+            Engineering, including power systems, embedded systems, telecommunications, and automation. My journey
+            in engineering has been fueled by a strong curiosity and a drive to innovate, solve problems, and build
+            practical solutions.
+        </p>
+        <div class="article">
+            <p class="intro">I have gained experience in:</p>
+            <ul>
+                <li>
+                    <span class="bold">Embedded Systems & Arduino Projects</span> – Designing and developing
+                    automation solutions, including
+                    LED control, distance measurement, and sensor-based systems. I enjoy working with
+                    microcontrollers and programming them for real-world applications.
+                </li>
+                <li>
+                    <span class="bold">Software Development</span> – I develop web and mobile applications,
+                    combining my engineering knowledge
+                    with software skills. My expertise includes React.js for web apps and React Native for mobile
+                    apps, integrating APIs, managing state efficiently, and ensuring smooth user experiences.
+                </li>
+                <li>
+                    <span class="bold">Circuit Analysis & Digital Electronics</span> – I have a strong foundation in
+                    electrical circuit
+                    analysis and digital logic design, utilizing MATLAB and LTspice for simulation and testing.
+                </li>
+                <li>
+                    <span class="bold">Data Structures & Algorithms</span> – I write efficient code using C and C++,
+                    focusing on optimization,
+                    problem-solving, and performance enhancement.
+                </li>
+                <li>
+                    <span class="bold">Power & Control Systems</span> – I have an interest in electrical power
+                    distribution, renewable energy,
+                    and automation systems, understanding their design, implementation, and real-world impact.
+                </li>
+            </ul>
+        </div>
+        <p class="finale">
+            I believe in continuous learning and hands-on experimentation, which is why I actively work on personal
+            projects, participate in workshops, and explore new technologies. My goal is to contribute to
+            technological advancements and engineer solutions that improve lives and industries.
+        </p>
+    </div>
+    <div class="projects" id="projects">
+        <h3>📌 Projects</h3>
+        <div class="embeded">
+            <h4>🔌 Arduino & Embedded Systems Projects</h4>
+            <div class="project">
+                <p class="title">1️⃣ LED Control System <a href="./assets/researches/led control.pdf" download><img
+                            src="./assets/icons/download-icon.png" alt=""></a></p>
+                <p class="overview">
+                    A project that demonstrates controlling LED lights using an Arduino board. Users can
+                    adjust brightness and patterns based on inputs.
+                    Technologies Used: Arduino C, Sensors, LEDs, Microcontrollers
+                </p>
+            </div>
+            <div class="project">
+                <p class="title">2️⃣ Distance Measurement System <a href="./assets/researches/distance measurement.pdf"
+                        download><img src="./assets/icons/download-icon.png" alt=""></a></p>
+                <p class="overview">
+                    A system that measures distances using an ultrasonic sensor and displays results on an LCD
+                    screen.
+                    Technologies Used: Arduino C, Ultrasonic Sensor, LCD Display, Microcontrollers
+                </p>
+            </div>
+        </div>
+        <div class="software">
+            <h4>💻 Software Development Projects</h4>
+            <div class="project">
+                <p class="title">1️⃣ Social Media Platform (Web & Mobile) <a
+                        href="https://github.com/AymanAlsisi/social-media-web"><img src="./assets/icons/github-icon.png"
+                            alt=""></a></p>
+                <p class="overview">
+                    A full-stack social media platform where users can create accounts, share posts, follow others, and
+                    chat in real time.
+                </p>
+                <p class="features">Key Features</p>
+                <ul class="features">
+                    <li>
+                        <span class="bold">✅ User Authentication (JWT)</span> – Secure login and signup.
+                    </li>
+                    <li>
+                        <span class="bold">✅ Post Creation & Feed</span> – Users can share images with captions.
+                    </li>
+                    <li>
+                        <span class="bold">✅ Search & Profiles</span> – Users can find others and view profiles.
+                    </li>
+                    <li>
+                        <span class="bold">✅ Real-time Messaging</span> – Uses WebSockets for instant communication.
+                    </li>
+                    <li>
+                        <span class="bold">✅ Mobile & Web Compatibility</span> – Consistent UI across platforms.
+                    </li>
+                    <li>
+                        Technologies Used: React.js, React Native, WebSockets, Axios, TailwindCSS
+                    </li>
+                </ul>
+            </div>
+            <div class="project">
+                <p class="title">2️⃣ Sudanese Prayers Times Website <a
+                        href="https://github.com/AymanAlsisi/prayers"><img src="./assets/icons/github-icon.png"
+                            alt=""></a></p>
+                <p class="overview">
+                    A simple web app that fetches prayer times for Sudanese cities using the ALADHAN API.
+                </p>
+                <p class="features">Key Features</p>
+                <ul class="features">
+                    <li>
+                        <span class="bold">✅ City Selection</span> – Users can choose a city to get prayer times.
+                    </li>
+                    <li>
+                        <span class="bold">✅ API Integration</span> – Data is fetched from ALADHAN API.
+                    </li>
+                    <li>
+                        <span class="bold">✅ Arabic Language Support</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="project">
+                <p class="title">3️⃣ Weather Forecast App <a href="https://github.com/AymanAlsisi/social-media-web"><img
+                            src="./assets/icons/github-icon.png" alt=""></a></p>
+                <p class="overview">
+                    A weather app that provides real-time weather conditions for any city using the WeatherAPI.
+                </p>
+                <p class="features">Key Features</p>
+                <ul class="features">
+                    <li>
+                        <span class="bold">✅ Live Weather Data</span> – Shows temperature, humidity, wind speed, etc.
+                    </li>
+                    <li>
+                        <span class="bold">✅ City Search Functionality</span>
+                    </li>
+                    <li>
+                        <span class="bold">✅ Responsive UI</span> – Works on both desktop and mobile browsers.
+                    </li>
+                    <li>
+                        <span class="bold">✅ Arabic Language Support</span>
+                    </li>
+                    <li>
+                        Technologies Used: HTML, CSS, JavaScript, WeatherAPI
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="resume" id="resume">
+        <h3>📄 Resume</h3>
+        <p class="headline">Download My Resume <a href="./assets/resume.pdf" download><img
+                    src="./assets/icons/download-icon.png" alt=""></a></p>
+        <p class="intro">💡 My resume highlights:</p>
+        <ul>
+            <li>
+                <span class="bold">✔ Education & Workshops</span> – My academic background and hands-on learning
+                experiences.
+            </li>
+            <li>
+                <span class="bold">✔ Technical Skills</span> – My expertise in Electrical Engineering, Embedded Systems,
+                and Software Development.
+            </li>
+            <li>
+                <span class="bold">✔ Projects</span> – A showcase of my Arduino and software projects.
+            </li>
+            <li>
+                <span class="bold">✔ Certifications & Achievements</span> – Any relevant accomplishments.
+            </li>
+        </ul>
+    </div>
+    <div class="contact" id="contact">
+        <h3>📞 Contact Me</h3>
+        <p class="headline">
+            💬 Let’s Connect! Feel free to reach out if you have any questions, project ideas, or collaboration
+            opportunities.
+        </p>
+        <div class="links">
+            <a href="mailto:aimandabora167@gmail.com" class="link">
+                <img src="./assets/icons/email-icon.png" alt="">
+                <p>Email</p>
+            </a>
+            <a href="https://github.com/AymanAlsisi" class="link">
+                <img src="./assets/icons/github-icon.png" alt="">
+                <p>GitHub</p>
+            </a>
+            <a href="https://www.linkedin.com/in/ayman-babekir-197287331?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                class="link">
+                <img src="./assets/icons/linkedin-icon.png" alt="">
+                <p>LinkedIn</p>
+            </a>
+        </div>
+    </div>
+    <button class="scroll-btn"><img src="./assets/icons/arrow-up-icon.png" alt=""></button>
+    <script src="./Main.js"></script>
+</body>
+
+</html>
